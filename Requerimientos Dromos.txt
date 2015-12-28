@@ -1,0 +1,55 @@
+Requerimientos Dromos.
+
+Modulo 1.   (Altas, bajas y cambios de cada tabla)
+
+Un depertamento pertenece a un área.
+Un área pertenece a una dirección.
+
+Los departamentos pueden cambiar de area y las areas de direccion 
+
+Un colaborador pertenece a un departamento, tiene un sueldo, puede tener un jefe(otro colaborador), pertenece a una ubicación (planta), un numero de empleado, y una posicion.
+
+Las posiciones pertenecen a los departamentos pueden estar ocupadas o disponibles.
+
+Los puestos tienen una clave.
+Analista de color -> ANCO.
+
+Las posiciones tienen un puesto y un consecutivo de colaborador con ese puesto
+ANCO 01, ANCO 02, etc.
+
+Reportes de Todo (PDF, Excel)
+
+Todo este modulo lo maneja el administrador.   
+
+
+Modulo 2
+
+
+Las acciones disciplinarias, pertenencen a una categoria, y tienen un numero
+
+Ejemplo. 5.14, 6.12, etc.
+
+Categorias.
+
+1. Entrada.
+2. Merma etc.
+
+Tienen una descripción, y un tipo de sancion.
+
+Los tipos de sanciones son.
+
+1. Reporte Verbal
+2. Reporte Documentado.
+3. Sancion
+4. Despido.
+
+Las faltas se asignan de la siguiente manera, un jefe levanta la falta poniendo la fecha del suceso y hora, la descripcion del mismo, el colaborador que cometio dicha falta, la falta(accion disciplinaria) que cometio, el testigo, el compromiso del colaborador, el compromiso del jefe para que no vuelva a suceder, y una fecha de revision del compromiso. (PDF)
+
+Hay 3 tipos de usuarios.
+
+Jefe -> Levanta Sanciones y ve sus sanciones.
+Colaborador -> Ve sus sanciones.
+Recursos humanos -> Ve estatus de sanciones y valida faltas. 
+
+Las faltas tienen un tipo de sanción sin embargo si es la segunda vez que realiza dicha sancion debe tener el siguiente nivel de sancion.
+
