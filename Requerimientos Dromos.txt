@@ -4,26 +4,21 @@ Modulo 1.   (Altas, bajas y cambios de cada tabla)
 
 Un depertamento pertenece a un área.
 Un área pertenece a una dirección.
-
 Los departamentos pueden cambiar de area y las areas de direccion 
-
 Un colaborador pertenece a un departamento, tiene un sueldo, puede tener un jefe(otro colaborador), pertenece a una ubicación (planta), un numero de empleado, y una posicion.
-
 Las posiciones pertenecen a los departamentos pueden estar ocupadas o disponibles.
-
 Los puestos tienen una clave.
 Analista de color -> ANCO.
-
 Las posiciones tienen un puesto y un consecutivo de colaborador con ese puesto
 ANCO 01, ANCO 02, etc.
-
+Existen transferencias de puesto, y se debe guardar el movimiento.
 Reportes de Todo (PDF, Excel)
+Todo este modulo lo maneja el administrador.  
 
-Todo este modulo lo maneja el administrador.   
+
 
 
 Modulo 2
-
 
 Las acciones disciplinarias, pertenencen a una categoria, y tienen un numero
 
